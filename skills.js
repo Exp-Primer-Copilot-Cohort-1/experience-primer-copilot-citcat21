@@ -1,8 +1,3 @@
-function calculatenumbers() {
-    var num1 = document.getElementById('num1').value;
-    var num2 = document.getElementById('num2').value;
-    var result = parseInt(num1) + parseInt(num2);
-    document.getElementById('result').value = result;
+function calculateNumbers(var1, var2) {
+  return var1 + var2
 }
-
-//update to push w/ correct comments
